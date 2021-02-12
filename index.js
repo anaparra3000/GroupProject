@@ -255,6 +255,7 @@ function animateBezos(speed) {
     }
   }, speed)
 }
+
 animateBezos(50);
 function drawBezos() {
   ctx.drawImage(BezosImg, sheetX, sheetY, 902, 470, locateX, 340, 250, 175)
@@ -290,7 +291,6 @@ function animate() {
   for (laserl of lasersLeft) {
     laserl.drawLasersLeft()
   }
-
-
 }
+
 animate()
